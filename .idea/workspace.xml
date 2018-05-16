@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14066c8d-9316-495a-9836-367057f9f978" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/hibernatetutorial/hibernate/demo/UpdateStudentDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hibernatetutorial/hibernate/demo/QueryStudentDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hibernatetutorial/hibernate/demo/QueryStudentDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryStudentDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/hibernatetutorial/hibernate/demo/QueryStudentDemo.java">
+      <file leaf-file-name="UpdateStudentDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/hibernatetutorial/hibernate/demo/UpdateStudentDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+            <state relative-caret-position="509">
+              <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -63,6 +62,7 @@
         <option value="$PROJECT_DIR$/src/com/hibernatetutorial/hibernate/demo/ReadStudentDemo.java" />
         <option value="$PROJECT_DIR$/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/com/hibernatetutorial/hibernate/demo/QueryStudentDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/hibernatetutorial/hibernate/demo/UpdateStudentDemo.java" />
       </list>
     </option>
   </component>
@@ -159,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QueryStudentDemo">
+  <component name="RunManager" selected="Application.UpdateStudentDemo">
     <configuration name="CreateStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hibernatetutorial.hibernate.demo.CreateStudentDemo" />
       <module name="hibernate-tutorial" />
@@ -204,13 +204,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TestJdbc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hibenatetutorial.jdbc.TestJdbc" />
+    <configuration name="UpdateStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hibernatetutorial.hibernate.demo.UpdateStudentDemo" />
       <module name="hibernate-tutorial" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hibenatetutorial.jdbc.*" />
+          <option name="PATTERN" value="com.hibernatetutorial.hibernate.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,19 +257,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.TestJdbc" />
       <item itemvalue="Application.CreateStudentDemo" />
       <item itemvalue="Application.PrimaryKeyDemo" />
       <item itemvalue="Application.ReadStudentDemo" />
       <item itemvalue="Application.QueryStudentDemo" />
+      <item itemvalue="Application.UpdateStudentDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UpdateStudentDemo" />
         <item itemvalue="Application.QueryStudentDemo" />
         <item itemvalue="Application.ReadStudentDemo" />
         <item itemvalue="Application.PrimaryKeyDemo" />
         <item itemvalue="Application.CreateStudentDemo" />
-        <item itemvalue="Application.TestJdbc" />
       </list>
     </recent_temporary>
   </component>
@@ -286,12 +286,12 @@
       <workItem from="1525996567013" duration="74000" />
       <workItem from="1525996652941" duration="3190000" />
       <workItem from="1526146169329" duration="6470000" />
-      <workItem from="1526440660499" duration="444000" />
+      <workItem from="1526440660499" duration="1583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10178000" />
+    <option name="totallyTimeSpent" value="11317000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1922" height="1038" extended-state="6" />
@@ -437,8 +437,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hibernatetutorial/hibernate/demo/QueryStudentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        <state relative-caret-position="271">
+          <caret line="42" column="70" selection-start-line="42" selection-start-column="70" selection-end-line="42" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hibernatetutorial/hibernate/demo/UpdateStudentDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
         </state>
       </provider>
     </entry>
